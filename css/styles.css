@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.logo-header {
+  border-right: 2px solid #f8f8fa;
+  border-bottom: 2px solid #f8f8fa;
+  padding: 15px;
+  background-color: white;
+}
+
+.navi-cont {
+  color: #a0a5b7;
+  border-bottom: 1px solid #a0a5b7;
+  padding: 10px;
+}
+
+.navi-link {
+  color: #a0a5b7;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.chat {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #4c84ff;
+  border: 1px solid  #4c84ff;
+  border-radius: 7px;
+  position: fixed;
+  bottom: 30px;
+  margin: 0 20px;
+  width: 150px;
+}
+
+
+div.content {
+  margin-left: 200px;
+  background-color: #eff0f5;
+}
+
+.account-header {
+  border-right: 2px solid #f8f8fa;
+  border-bottom: 2px solid #f8f8fa;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+.row-1 {
+  display: flex;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.search-form {
+  width: 40%;
+  box-shadow: 0 0 10px grey;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.search-bar {
+  padding: 3px 7px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.search-logo {
+  padding: 5px 10px;
+  background-color: #4c84ff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.icon-ul {
+  padding: 10px;
+  border-right: 2px solid #f8f8fa;
+  margin-right: 10px;
+  height: 100%;
+}
+
+.icon-li {
+  display: inline;
+  margin: 0 5px;
+  color: #c5c6cb;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.account-img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.names {
+  padding: 0 10px;
+}
+
+.acc-p {
+  line-height: 0;
+}
+
+main {
+  padding: 30px;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #f1ad82 , #c957bb, #5256cd);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.acc-info {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.names-gradient {
+  margin-left: 15px;
+  color: white;
+}
+
+.infos {
+  text-align: right;
+  margin-left: 15px;
+  color: white;
+}
+
+.acc-icon-col {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.main-left-side {
+  margin-right: 270px;
+}
+
+.carousel-mg {
+  margin: 30px auto;
+}
+
+.carusel-img {
+  border-radius: 10px;
+  height: 350px;
+}
+
+.suggested-items {
+  padding: 15px 0;
+}
+
+.item-cont {
+  border: 1px solid #e8e8ed;
+  border-radius: 7px;
+  text-align: right;
+  margin: 10px auto;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.item-icon {
+  margin-right: 15px;
+  color: #e4e3e9;
+}
+
+.item-icon:hover {
+  color: #fe8f4a;
+}
+
+.item-infos {
+  text-align: center;
+  padding: 10px 15px 0;
+}
+
+.item-img {
+  width: 80%;
+  border: 3px solid #e8e8ed;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px auto;
+}
+
+.view {
+  border-top: 2px solid #e8e8ed;
+  width: 100%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: center;
+  padding: 15px 0 5px;
+  color: #e8e8ed;
+}
+
+.view:hover {
+  color: white;
+  background-color: #4c84ff;
+}
+
+.view-link {
+  line-height: 0;
+}
+
+.sides {
+  position: relative;
+}
+
+.main-right-side {
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background: #eee;
+  overflow-x: hidden;
+}
+
+.nom {
+  margin: 0 auto 25px;
+}
+
+.title-cont {
+  padding: 0 7px;
+}
+
+.right-cont {
+  padding: 5px 10px;
+  border-bottom: 2px solid #e8e8ed:
+}
+
+.names-items {
+  text-align: left;
+}
+
+.item-p {
+  font-size: 13px;
+  margin-left: 5px;
+  line-height: 0.5;
+}
+
+.process {
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.red {
+  border: 1px solid #ffe8d9;
+  background-color: #ffe8d9;
+  color: #fe8f4a;
+}
+
+.green {
+  border: 1px solid #e2f2e8;
+  background-color: #e2f2e8;
+  color: #70c38e;
+}
+
+.item-right-icon {
+  color: #4c83fe;
+}
+
+.to-do {
+  padding: 10px;
+  text-align: center;
+}
+
+.todo-icon {
+  color: #e2f2e8;
+  margin-bottom: 10px;
+}
